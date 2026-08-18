@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\3mtec\\Desktop\\PortoRico\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40ED0EB2-7D2B-40A9-BD09-87376CB7267D}|PortoRico\\PortoRico.csproj|c:\\users\\3mtec\\desktop\\portorico\\portorico\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40ED0EB2-7D2B-40A9-BD09-87376CB7267D}|PortoRico\\PortoRico.csproj|solutionrelative:portorico\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40ED0EB2-7D2B-40A9-BD09-87376CB7267D}|PortoRico\\PortoRico.csproj|c:\\users\\3mtec\\desktop\\portorico\\portorico\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40ED0EB2-7D2B-40A9-BD09-87376CB7267D}|PortoRico\\PortoRico.csproj|solutionrelative:portorico\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40ED0EB2-7D2B-40A9-BD09-87376CB7267D}|PortoRico\\PortoRico.csproj|c:\\users\\3mtec\\desktop\\portorico\\portorico\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40ED0EB2-7D2B-40A9-BD09-87376CB7267D}|PortoRico\\PortoRico.csproj|solutionrelative:portorico\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\3mtec\\Desktop\\PortoRico\\PortoRico\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PortoRico\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\3mtec\\Desktop\\PortoRico\\PortoRico\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PortoRico\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-18T12:07:04.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\3mtec\\Desktop\\PortoRico\\PortoRico\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "PortoRico\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\3mtec\\Desktop\\PortoRico\\PortoRico\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "PortoRico\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-18T12:06:53.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\3mtec\\Desktop\\PortoRico\\PortoRico\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "PortoRico\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\3mtec\\Desktop\\PortoRico\\PortoRico\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "PortoRico\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-18T12:06:51.664Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

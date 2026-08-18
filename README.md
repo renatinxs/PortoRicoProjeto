@@ -7,7 +7,7 @@ Este documento apresenta os membros da equipe e suas respectivas funções.
 | Nome | Função | Papel |
 |------|--------|-------|
 | Renato Oliveira | Código + Design | 👑 Líder |
-| João Durigam | Design | Integrante |
+| João Durigam | Design + codigo| Integrante |
 | Samuel Barbosa | Código | Integrante |
 | Guilherme Silva | Pesquisa + Design | Integrante |
 
@@ -29,12 +29,12 @@ Este documento apresenta os membros da equipe e suas respectivas funções.
 
 ###  Guilherme Silva
 - **Funções:** Pesquisa, Design
-- Responsável pelo levantamento de referências e apoio na parte de design.
+- Responsável pelo levantamento de referências e apoio na parte de design e código.
 
 ---
 
 ## 📊 Resumo por Área
 
-- **Código:** Renato Oliveira, Samuel Barbosa
+- **Código:** Renato Oliveira, Samuel Barbosa, guilherme Silva
 - **Design:** Renato Oliveira, João Durigam, Guilherme Silva
 - **Pesquisa:** Guilherme Silva

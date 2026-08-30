@@ -21,14 +21,11 @@
                                 @Html.Raw(ViewData["MSG_E"])
                             </p>
                         }
-                        <a asp-action="Cadastrar"
-                           asp-controller="Cliente"
-                           class="float-right btn btn-outline-primary">
-                            Cadastre-se
-                        </a>
-                        <h4 class="card-title mb-4 mt-1">
-                            Entrar
-                        </h4>
+                        <div class="auth-form-footer">
+                            <span class="auth-switch">Não possui uma conta? <a asp-action="Cadastrar" asp-controller="Home">Cadastre-se</a></span>
+                            
+                        </div>
+                     
                         <form method="post">
                             <div class="form-group">
                                 <label>E-mail</label>

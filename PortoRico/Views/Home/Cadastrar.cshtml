@@ -1,0 +1,212 @@
+﻿@model PortoRico.Models.Cliente
+
+@{
+    ViewData["Title"] = "Criar Conta";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <script src="~/js/site.js" defer></script>
+    <title>@ViewData["Title"]</title>
+    <style>
+            * { box-sizing: border-box; }
+
+            body {
+                margin: 0;
+                font-family: 'Segoe UI', Arial, sans-serif;
+                background-color: #eef1f3;
+            }
+
+            .container-cadastro {
+                max-width: 850px;
+                margin: 50px auto;
+                background-color: #0d2138;
+                border-radius: 10px;
+                padding: 50px 60px;
+                color: #fff;
+            }
+
+            .container-cadastro h1 {
+                text-align: center;
+                font-size: 32px;
+                margin-bottom: 10px;
+            }
+
+            .container-cadastro p.subtitulo {
+                text-align: center;
+                color: #d9dfe4;
+                margin-bottom: 40px;
+                font-size: 15px;
+            }
+
+            .form-row {
+                display: flex;
+                gap: 30px;
+                margin-bottom: 22px;
+            }
+
+            .form-group { flex: 1; }
+
+            .form-group label {
+                display: block;
+                color: #f2a93c;
+                font-weight: 600;
+                margin-bottom: 8px;
+                font-size: 15px;
+            }
+
+            .form-group input,
+            .form-group select {
+                width: 100%;
+                padding: 12px 14px;
+                border-radius: 6px;
+                border: none;
+                background-color: #235973;
+                color: #fff;
+                font-size: 14px;
+            }
+
+            .form-group input::placeholder { color: #cfe3ec; }
+
+            .form-group input:focus,
+            .form-group select:focus {
+                outline: 2px solid #f2a93c;
+            }
+
+            .form-group select option {
+                background-color: #235973;
+                color: #fff;
+            }
+
+            .btn-criar-conta {
+                display: block;
+                width: 100%;
+                max-width: 320px;
+                margin: 30px auto 15px auto;
+                padding: 14px;
+                background-color: #f2a93c;
+                color: #0d2138;
+                font-weight: bold;
+                font-size: 15px;
+                border: none;
+                border-radius: 6px;
+                cursor: pointer;
+                letter-spacing: 1px;
+            }
+
+            .btn-criar-conta:hover { background-color: #e0982c; }
+
+            .login-link {
+                text-align: center;
+                font-size: 14px;
+                color: #fff;
+            }
+
+            .login-link a {
+                color: #f2a93c;
+                text-decoration: none;
+                font-weight: 600;
+            }
+
+            .alert-danger {
+                background-color: #e8492b33;
+                border: 1px solid #e8492b;
+                color: #ffdad2;
+                padding: 12px 16px;
+                border-radius: 6px;
+                margin-bottom: 20px;
+            }
+
+            .field-erro {
+                color: #ffb4a2;
+                font-size: 13px;
+                margin-top: 4px;
+                display: block;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="container-cadastro">
+        <h1>Criar sua conta</h1>
+        <p class="subtitulo">Cadastre-se para desbloquear a área de aluguel de quartos em Porto Rico.</p>
+
+        <div asp-validation-summary="ModelOnly" class="alert-danger"></div>
+
+        <form class="auth-form" method="post" onsubmit="return validarSenhas()" ">
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label asp-for="Nome">Nome Completo</label>
+                    <input asp-for="Nome" maxlength="50" placeholder="Seu nome" />
+                    <span asp-validation-for="Nome" class="field-erro"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email">Email</label>
+                    <input asp-for="Email" type="email" maxlength="50" placeholder="seu@gmail.com" />
+                    <span asp-validation-for="Email" class="field-erro"></span>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label asp-for="CPF">CPF</label>
+                    <input asp-for="CPF" maxlength="11" placeholder="Somente números" />
+                    <span asp-validation-for="CPF" class="field-erro"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Telefone">Telefone</label>
+                    <input asp-for="Telefone" maxlength="15" placeholder="(00) 00000-0000" />
+                    <span asp-validation-for="Telefone" class="field-erro"></span>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label asp-for="Nascimento">Data de Nascimento</label>
+                    <input asp-for="Nascimento" type="date" />
+                    <span asp-validation-for="Nascimento" class="field-erro"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Sexo">Sexo</label>
+                    <select asp-for="Sexo">
+                        <option value="">Selecione...</option>
+                        <option value="M">Masculino</option>
+                        <option value="F">Feminino</option>
+                    </select>
+                    <span asp-validation-for="Sexo" class="field-erro"></span>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label asp-for="Senha">Criar Senha</label>
+                    <input asp-for="Senha" type="password" maxlength="10" placeholder="Senha" />
+                    <span asp-validation-for="Senha" class="field-erro"></span>
+                </div>
+                <div class="form-group">
+                    <label for="ConfirmarSenha">Confirmar Senha</label>
+                    <input type="password" id="ConfirmarSenha" name="ConfirmarSenha" maxlength="10" placeholder="Senha" />
+                </div>
+            </div>
+
+            <button type="submit" class="btn-criar-conta">CRIAR CONTA</button>
+
+            <div class="auth-form-footer">
+                <span class="auth-switch">Já possui uma conta? <a asp-action="Login">Faça login</a></span>
+                
+            </div>
+            @if (ViewData["MSG_E"] != null)
+            {
+                <p class="alert alert-danger">@Html.Raw(ViewData["MSG_E"])</p>
+            }
+        </form>
+    </div>
+
+
+</body>
+</html>
+

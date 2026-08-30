@@ -41,11 +41,16 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
 }
-app.UseRouting();
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.UseHttpsRedirection();
+app.UseDefaultFiles();
+app.MapStaticAssets();
 app.UseCookiePolicy();
 app.UseSession();
+app.UseRouting();
 
-app.MapStaticAssets();
+app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",

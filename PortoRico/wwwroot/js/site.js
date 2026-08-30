@@ -1,16 +1,23 @@
-﻿
-document.addEventListener('DOMContentLoaded', function () {
-  const params = new URLSearchParams(window.location.search);
-  const cidade = params.get('cidade');
-  if (!cidade) return;
+﻿function validarSenhas() {
+    const nome = document.getElementById("nome").value;
+    const email = document.getElementById("email").value;
 
-  const listings = document.querySelectorAll('.listing');
-  if (listings.length === 0) return;
+    const senha = document.getElementById("senha").value;
+    const confirmar = document.getElementById("confirmarSenha").value;
 
-  listings.forEach(l => l.classList.remove('highlight'));
-  const alvo = document.querySelector('.listing[data-city="' + cidade + '"]');
-  if (alvo) {
-    alvo.classList.add('highlight');
-    setTimeout(() => alvo.scrollIntoView({ behavior: 'smooth', block: 'center' }), 250);
-  }
-});
+    if (nome == null) {
+        alert("Digite um nome")
+        return false;
+
+    }
+    if (email == null) {
+        alert("Digite um email")
+        return false;
+    }
+    if (senha !== confirmar) {
+        alert("As senhas não coincidem.");
+        return false;
+    }
+
+    return true;
+}

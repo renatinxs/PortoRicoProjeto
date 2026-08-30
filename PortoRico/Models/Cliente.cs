@@ -42,6 +42,12 @@ namespace PortoRico.Models
         [StringLength(10, MinimumLength = 6, ErrorMessage = "A senha deve ter entre 6 a 10 caracteres")]
         public string Senha { get; set; }
 
+        [Display(Name = "Senha")]
+        [DataType(DataType.Password)]
+        [Required(ErrorMessage = "A confirmar senha é obrigatorio")]
+        [StringLength(10, MinimumLength = 6, ErrorMessage = "A senha deve ter entre 6 a 10 caracteres")]
+        public string ConfirmacaoSenha { get; set; }
+
 
         [Display(Name = "Situação")]
         [Required(ErrorMessage = "A situação é obrigatorio")]

@@ -1,6 +1,6 @@
 ﻿using PortoRico.Models;
 using PortoRico.Models.Constants;
-
+using System.Data;
 using MySql.Data.MySqlClient;
 using System.Data;
 using X.PagedList;
@@ -101,8 +101,8 @@ namespace PortoRico.Repository
                 conexao.Open();
 
                 MySqlCommand cmd = new MySqlCommand(
-                    "insert into Cliente(Nome, Nascimento, Sexo, CPF, Telefone, Email, Senha, Situacao) " +
-                    "values (@Nome, @Nascimento, @Sexo, @CPF, @Telefone, @Email, @Senha, @Situacao)",
+                    "insert into Cliente(Nome, Nascimento, Sexo, CPF, Telefone, Email, Senha,ConfirmacaoSenha, Situacao) " +
+                    "values (@Nome, @Nascimento, @Sexo, @CPF, @Telefone, @Email, @Senha,@ConfirmacaoSenha, @Situacao)",
                     conexao
                 ); // @: PARAMETRO
 
@@ -113,6 +113,7 @@ namespace PortoRico.Repository
                 cmd.Parameters.Add("@Telefone", MySqlDbType.VarChar).Value = cliente.Telefone;
                 cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = cliente.Email;
                 cmd.Parameters.Add("@Senha", MySqlDbType.VarChar).Value = cliente.Senha;
+                cmd.Parameters.Add("@ConfirmacaoSenha", MySqlDbType.VarChar).Value = cliente.ConfirmacaoSenha;
                 cmd.Parameters.Add("@Situacao", MySqlDbType.VarChar).Value = Situacao;
 
                 cmd.ExecuteNonQuery();
@@ -201,8 +202,6 @@ namespace PortoRico.Repository
                 return cliente;
             }
         }
-
-
 
         public IPagedList<Cliente> ObterTodosClientes(int? pagina, string pesquisa)
         {

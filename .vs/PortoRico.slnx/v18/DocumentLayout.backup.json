@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\nova pasta\\portoricoprojeto\\portorico\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|solutionrelative:portorico\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\nova pasta\\portoricoprojeto\\portorico\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|solutionrelative:portorico\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\nova pasta\\portoricoprojeto\\portorico\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|solutionrelative:portorico\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\nova pasta\\portoricoprojeto\\portorico\\views\\home\\atracoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|solutionrelative:portorico\\views\\home\\atracoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\nova pasta\\portoricoprojeto\\portorico\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|solutionrelative:portorico\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\nova pasta\\portoricoprojeto\\portorico\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|solutionrelative:portorico\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\nova pasta\\portoricoprojeto\\portorico\\controllers\\aluguelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|solutionrelative:portorico\\controllers\\aluguelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,20 +39,8 @@
       "RelativeMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|solutionrelative:portorico\\libraries\\login\\logincliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\nova pasta\\portoricoprojeto\\portorico\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|solutionrelative:portorico\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\nova pasta\\portoricoprojeto\\portorico\\views\\home\\atracoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|solutionrelative:portorico\\views\\home\\atracoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\nova pasta\\portoricoprojeto\\portorico\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|solutionrelative:portorico\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\nova pasta\\portoricoprojeto\\portorico\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|solutionrelative:portorico\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\nova pasta\\portoricoprojeto\\portorico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\nova pasta\\portoricoprojeto\\portorico\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|solutionrelative:portorico\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\nova pasta\\portoricoprojeto\\portorico\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|solutionrelative:portorico\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC8C08DB-64EC-CA87-69E3-7F8151775770}|PortoRico\\PortoRico.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\nova pasta\\portoricoprojeto\\portorico\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -90,11 +98,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Atracoes.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Home\\Atracoes.cshtml",
+              "RelativeDocumentMoniker": "PortoRico\\Views\\Home\\Atracoes.cshtml",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Home\\Atracoes.cshtml",
+              "RelativeToolTip": "PortoRico\\Views\\Home\\Atracoes.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-30T15:11:19.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PortoRico\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PortoRico\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-18T12:07:04.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SituacaoConstant.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Models\\Constants\\SituacaoConstant.cs",
+              "RelativeDocumentMoniker": "PortoRico\\Models\\Constants\\SituacaoConstant.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Models\\Constants\\SituacaoConstant.cs",
+              "RelativeToolTip": "PortoRico\\Models\\Constants\\SituacaoConstant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T19:36:33.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PortoRico\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PortoRico\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAYwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T20:03:00.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "PortoRico\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "PortoRico\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswDUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-28T20:11:48.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PortoRico\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PortoRico\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswCMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-28T20:13:25.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Aluguel\\Index.cshtml",
+              "RelativeDocumentMoniker": "PortoRico\\Views\\Aluguel\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Aluguel\\Index.cshtml",
+              "RelativeToolTip": "PortoRico\\Views\\Aluguel\\Index.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-30T15:19:41.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AluguelController.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Controllers\\AluguelController.cs",
               "RelativeDocumentMoniker": "PortoRico\\Controllers\\AluguelController.cs",
@@ -107,80 +203,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Aluguel\\Index.cshtml",
-              "RelativeDocumentMoniker": "PortoRico\\Views\\Aluguel\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Aluguel\\Index.cshtml",
-              "RelativeToolTip": "PortoRico\\Views\\Aluguel\\Index.cshtml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAowEMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-30T15:19:41.595Z",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "PortoRico\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "PortoRico\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKgDAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-08-30T16:34:45.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Atracoes.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Home\\Atracoes.cshtml",
-              "RelativeDocumentMoniker": "PortoRico\\Views\\Home\\Atracoes.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Home\\Atracoes.cshtml",
-              "RelativeToolTip": "PortoRico\\Views\\Home\\Atracoes.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-30T15:11:19.5Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "PortoRico\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "PortoRico\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-18T12:07:04.35Z"
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "PortoRico\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "PortoRico\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-08-30T16:35:31.214Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SituacaoConstant.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Models\\Constants\\SituacaoConstant.cs",
-              "RelativeDocumentMoniker": "PortoRico\\Models\\Constants\\SituacaoConstant.cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Models\\Constants\\SituacaoConstant.cs",
-              "RelativeToolTip": "PortoRico\\Models\\Constants\\SituacaoConstant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-28T19:36:33.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "PortoRico\\Views\\Home\\Login.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "PortoRico\\Views\\Home\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-28T20:11:48.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "PortoRico\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "PortoRico\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwAoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-28T20:03:00.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "LoginCliente.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Libraries\\Login\\LoginCliente.cs",
               "RelativeDocumentMoniker": "PortoRico\\Libraries\\Login\\LoginCliente.cs",
@@ -188,12 +237,11 @@
               "RelativeToolTip": "PortoRico\\Libraries\\Login\\LoginCliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-28T19:40:50.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-28T19:40:50.259Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Repository\\ClienteRepository.cs",
               "RelativeDocumentMoniker": "PortoRico\\Repository\\ClienteRepository.cs",
@@ -205,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "PortoRico\\Views\\_ViewImports.cshtml",
@@ -217,19 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PortoRico\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PortoRico\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-28T20:13:25.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Program.cs",
               "RelativeDocumentMoniker": "PortoRico\\Program.cs",
@@ -241,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Cliente\\Index.cshtml",
               "RelativeDocumentMoniker": "PortoRico\\Views\\Cliente\\Index.cshtml",
@@ -253,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "CadastrarCliente.cshtml",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Cliente\\CadastrarCliente.cshtml",
               "RelativeDocumentMoniker": "PortoRico\\Views\\Cliente\\CadastrarCliente.cshtml",
@@ -265,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "IClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Repository\\Contract\\IClienteRepository.cs",
               "RelativeDocumentMoniker": "PortoRico\\Repository\\Contract\\IClienteRepository.cs",
@@ -277,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "PortoRico\\Views\\Home\\Privacy.cshtml",
@@ -289,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "PainelCliente.cshtml",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Views\\Home\\PainelCliente.cshtml",
               "RelativeDocumentMoniker": "PortoRico\\Views\\Home\\PainelCliente.cshtml",
@@ -301,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "PortoRico\\Models\\Cliente.cs",
@@ -313,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Sessao.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\Libraries\\Sessao\\Sessao.cs",
               "RelativeDocumentMoniker": "PortoRico\\Libraries\\Sessao\\Sessao.cs",
@@ -325,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PortoRicoProjeto\\PortoRico\\appsettings.json",
               "RelativeDocumentMoniker": "PortoRico\\appsettings.json",

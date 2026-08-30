@@ -67,6 +67,11 @@ namespace PortoRico.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        public IActionResult Atracoes()
+        {
+            return View();
+        }
+
         public IActionResult Index()
         {
             return View();

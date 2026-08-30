@@ -1,4 +1,16 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿
+document.addEventListener('DOMContentLoaded', function () {
+  const params = new URLSearchParams(window.location.search);
+  const cidade = params.get('cidade');
+  if (!cidade) return;
 
-// Write your JavaScript code.
+  const listings = document.querySelectorAll('.listing');
+  if (listings.length === 0) return;
+
+  listings.forEach(l => l.classList.remove('highlight'));
+  const alvo = document.querySelector('.listing[data-city="' + cidade + '"]');
+  if (alvo) {
+    alvo.classList.add('highlight');
+    setTimeout(() => alvo.scrollIntoView({ behavior: 'smooth', block: 'center' }), 250);
+  }
+});

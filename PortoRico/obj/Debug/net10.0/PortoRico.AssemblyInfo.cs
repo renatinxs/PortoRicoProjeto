@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PortoRico")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56acbc04c24b5b3f5c2ae48bf404e5b8699b9f1f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e90d17166b105e9ac22e64f016800b7481490bc2")]
 [assembly: System.Reflection.AssemblyProductAttribute("PortoRico")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PortoRico")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

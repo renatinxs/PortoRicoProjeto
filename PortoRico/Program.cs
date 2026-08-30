@@ -45,6 +45,8 @@ app.UseRouting();
 app.UseCookiePolicy();
 app.UseSession();
 
+app.MapStaticAssets();
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}")

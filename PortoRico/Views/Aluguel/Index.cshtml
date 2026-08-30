@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Aluguel de Quartos";
+}
+
+<main id="page-rentals">
+    <div class="rentals-hero">
+        <div class="container">
+            <div>
+                <span class="stamp on-dark"><span class="dot"></span>Área de membros</span>
+                <h1>Quartos disponíveis<br>em Porto Rico</h1>
+                <p class="lede" style="margin-top:10px;">Olá, @ViewBag.Nome!</p>
+            </div>
+            <a asp-controller="Home" asp-action="LogoutCliente" class="logout-btn">Sair da conta</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="listing-grid">
+
+            <div class="listing" data-city="San Juan">
+                <div class="photo" style="background:linear-gradient(135deg,#0F3F52,#175A73);"><span>San Juan · Ilhota</span></div>
+                <div class="info">
+                    <div class="city">San Juan</div>
+                    <h3>Quarto na Cidade Velha</h3>
+                    <div class="price">$68 <small>/ noite</small></div>
+                    <div class="tags"><span>Wi-Fi</span><span>Vista para o mar</span><span>Centro histórico</span></div>
+                    <button class="reserve-btn">Reservar</button>
+                </div>
+            </div>
+
+            <div class="listing" data-city="Rincón">
+                <div class="photo" style="background:linear-gradient(135deg,#E13A3A,#c92e2e);"><span>Rincón · Praia</span></div>
+                <div class="info">
+                    <div class="city">Rincón</div>
+                    <h3>Suíte de Frente para o Pôr do Sol</h3>
+                    <div class="price">$95 <small>/ noite</small></div>
+                    <div class="tags"><span>Praia privativa</span><span>Surf</span><span>Café da manhã</span></div>
+                    <button class="reserve-btn">Reservar</button>
+                </div>
+            </div>
+
+            <div class="listing" data-city="Ponce">
+                <div class="photo" style="background:linear-gradient(135deg,#F2A93B,#d98d1f);"><span>Ponce · Centro</span></div>
+                <div class="info">
+                    <div class="city">Ponce</div>
+                    <h3>Quarto Colonial na Plaza</h3>
+                    <div class="price">$52 <small>/ noite</small></div>
+                    <div class="tags"><span>Ar-condicionado</span><span>Perto de museus</span><span>Estacionamento</span></div>
+                    <button class="reserve-btn">Reservar</button>
+                </div>
+            </div>
+
+            <div class="listing" data-city="Vieques">
+                <div class="photo" style="background:linear-gradient(135deg,#0A2A3A,#0F3F52);"><span>Vieques · Ilha</span></div>
+                <div class="info">
+                    <div class="city">Vieques</div>
+                    <h3>Bangalô perto da Baía Bioluminescente</h3>
+                    <div class="price">$110 <small>/ noite</small></div>
+                    <div class="tags"><span>Bicicleta inclusa</span><span>Piscina</span><span>Pet friendly</span></div>
+                    <button class="reserve-btn">Reservar</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="proto-note">Anúncios fictícios criados apenas para este protótipo de layout — nenhuma reserva real é processada.</div>
+</main>

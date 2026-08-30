@@ -1,8 +1,163 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Início";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Porto Rico</h1>
-    <p>MAIS INFORMAÇÕES EM BREVE</p>
-</div>
+<main id="page-home">
+
+    <div class="hero">
+        <svg class="hero-palm" viewBox="0 0 200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M100 240 L100 120" stroke="#FBF9F4" stroke-width="4" />
+            <path d="M100 130 C 60 110, 30 80, 20 40" stroke="#FBF9F4" stroke-width="4" fill="none" />
+            <path d="M100 125 C 140 100, 165 70, 175 30" stroke="#FBF9F4" stroke-width="4" fill="none" />
+            <path d="M100 122 C 70 95, 55 60, 55 20" stroke="#FBF9F4" stroke-width="4" fill="none" />
+            <path d="M100 122 C 130 95, 145 60, 145 20" stroke="#FBF9F4" stroke-width="4" fill="none" />
+            <path d="M100 128 C 90 90, 100 60, 100 15" stroke="#FBF9F4" stroke-width="4" fill="none" />
+        </svg>
+        <div class="hero-inner">
+            <span class="stamp on-dark"><span class="dot"></span>Guia cultural · Caribe</span>
+            <h1>Cultura + história<br>de <em>Porto Rico</em></h1>
+            <p class="lede">Um guia de pesquisa sobre a ilha: idioma, religião, folclore, música, esporte e a sua relação com os Estados Unidos — reunidos em um único lugar, para quem estuda ou vai visitar.</p>
+            <div class="hero-actions">
+                <a href="#temas" class="btn-primary">Explorar temas</a>
+                <a asp-controller="Aluguel" asp-action="Index" class="btn-ghost">Alugar um quarto →</a>
+            </div>
+            <div class="hero-dots"><span></span><span></span><span></span></div>
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="feature-card">
+            <div class="ficon">📖</div>
+            <h3>História &amp; Povo</h3>
+            <p>Da colonização espanhola ao Estado Livre Associado: como Taínos, espanhóis e africanos formaram a identidade boricua.</p>
+            <a href="#sobre" class="go">Ler mais</a>
+        </div>
+        <div class="feature-card">
+            <div class="ficon">🥁</div>
+            <h3>Música &amp; Dança</h3>
+            <p>Bomba, Plena, salsa e reggaeton — os ritmos que Porto Rico exportou para o mundo, tema por tema.</p>
+            <a href="#temas" class="go">Ler mais</a>
+        </div>
+        <div class="feature-card">
+            <div class="ficon">🔑</div>
+            <h3>Aluguel de Quartos</h3>
+            <p>Área exclusiva para usuários logados com opções de hospedagem em San Juan, Ponce, Rincón e Vieques.</p>
+            <a asp-controller="Aluguel" asp-action="Index" class="go">Entrar →</a>
+        </div>
+    </div>
+
+    <section id="sobre">
+        <div class="container sobre">
+            <div>
+                <span class="stamp"><span class="dot"></span>Introdução</span>
+                <h2>Uma ilha, três&nbsp;povos, uma&nbsp;identidade</h2>
+                <p>Porto Rico é uma ilha localizada no nordeste do Mar do Caribe e possui uma história marcada pela mistura de diferentes povos e culturas. Atualmente, é um território associado aos Estados Unidos, mas mantém uma identidade cultural própria e muito forte.</p>
+                <p>Sua capital é San Juan, uma das cidades mais antigas das Américas. A população porto-riquenha é resultado da miscigenação entre os povos indígenas Taínos, os colonizadores espanhóis e os africanos trazidos durante o período colonial, formando uma sociedade rica em tradições, costumes e manifestações culturais.</p>
+            </div>
+            <div class="facts">
+                <div class="fact">
+                    <div class="fico">🗣️</div>
+                    <div>
+                        <h4>Idioma &amp; dialeto</h4>
+                        <p>Espanhol e inglês são oficiais. O espanhol porto-riquenho tem ritmo próprio e palavras como "boricua", "wepa" e "chavos".</p>
+                    </div>
+                </div>
+                <div class="fact">
+                    <div class="fico">⛪</div>
+                    <div>
+                        <h4>Religião</h4>
+                        <p>Cristianismo predominante — catolicismo herdado da colonização espanhola, forte presença protestante e pequenas comunidades de outras fés.</p>
+                    </div>
+                </div>
+                <div class="fact">
+                    <div class="fico">🇺🇸</div>
+                    <div>
+                        <h4>Relação com os EUA</h4>
+                        <p>Estado Livre Associado desde 1898. Cidadania americana desde 1917, mas sem voto para presidente enquanto residentes na ilha.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="temas">
+        <div class="container">
+            <div class="section-head">
+                <span class="stamp"><span class="dot"></span>Explorar por tema</span>
+                <h2>Nove estampas da cultura boricua</h2>
+                <div class="rule"></div>
+            </div>
+
+            <div class="topics">
+                <details class="topic" open>
+                    <summary><span><span class="idx">01</span>Folclore e Lendas</span><span class="arrow">+</span></summary>
+                    <p class="body-txt">O folclore porto-riquenho reúne elementos indígenas, africanos e espanhóis em histórias transmitidas oralmente. Entre as mais famosas está o Chupacabra, criatura que atacaria animais para sugar seu sangue. Yuisa, lendária líder Taína, simboliza resistência e preservação cultural. Também fazem parte do imaginário o Homem do Saco e os Cemíes, espíritos venerados pelos antigos Taínos.</p>
+                </details>
+                <details class="topic">
+                    <summary><span><span class="idx">02</span>Danças Típicas</span><span class="arrow">+</span></summary>
+                    <p class="body-txt">A Bomba surgiu das influências africanas, com tambores intensos e improviso entre músicos e dançarinos. A Plena é o "jornal cantado de Porto Rico", narrando fatos do cotidiano. A Danza Puertorriqueña, do século XIX, tem influência europeia e é associada a eventos formais e elegantes.</p>
+                </details>
+                <details class="topic">
+                    <summary><span><span class="idx">03</span>Músicas Típicas</span><span class="arrow">+</span></summary>
+                    <p class="body-txt">Além da Bomba e da Plena, a ilha teve papel fundamental na salsa, símbolo da música latina, e tornou-se o principal centro do reggaeton — mistura de hip-hop, dancehall e música latina. Daddy Yankee, Don Omar e Bad Bunny levaram esse som ao mundo todo.</p>
+                </details>
+                <details class="topic">
+                    <summary><span><span class="idx">04</span>Esportes</span><span class="arrow">+</span></summary>
+                    <p class="body-txt">O beisebol é a paixão nacional, com longa tradição de atletas que atuaram profissionalmente nos Estados Unidos. Basquete, boxe e voleibol também têm forte presença em escolas e universidades, fortalecendo o orgulho esportivo local.</p>
+                </details>
+                <details class="topic">
+                    <summary><span><span class="idx">05</span>Religião</span><span class="arrow">+</span></summary>
+                    <p class="body-txt">O cristianismo é predominante, sobretudo o catolicismo introduzido pelos espanhóis. Denominações protestantes cresceram ao longo dos séculos, e pequenas comunidades praticam judaísmo, islamismo e crenças afro-caribenhas, ampliando a diversidade espiritual da ilha.</p>
+                </details>
+                <details class="topic">
+                    <summary><span><span class="idx">06</span>Idioma e Dialeto</span><span class="arrow">+</span></summary>
+                    <p class="body-txt">O espanhol domina o dia a dia, educação e mídia; o inglês é forte no governo, turismo e negócios. O espanhol local tem pronúncia rápida e heranças indígenas, africanas e do inglês — "boricua" (porto-riquenho), "wepa" (entusiasmo) e "chavos" (dinheiro).</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section id="cores">
+        <div class="container">
+            <div class="section-head">
+                <span class="stamp"><span class="dot"></span>Identidade visual</span>
+                <h2>Cores representativas</h2>
+                <div class="rule"></div>
+                <p style="margin-top:16px; color:#3a4a52; font-size:15px;">Vermelho, azul e branco compõem a bandeira nacional — e seguem presentes em festas, esportes e no dia a dia da ilha.</p>
+            </div>
+            <div class="swatches">
+                <div class="swatch">
+                    <div class="chip" style="background:#E13A3A;"></div>
+                    <h5>Vermelho</h5>
+                    <p>Coragem, sacrifício e a luta do povo ao longo da história.</p>
+                </div>
+                <div class="swatch">
+                    <div class="chip" style="background:#0F3F52;"></div>
+                    <h5>Azul</h5>
+                    <p>O céu e as águas do Caribe que cercam a ilha.</p>
+                </div>
+                <div class="swatch">
+                    <div class="chip" style="background:#FBF9F4; border:1px solid #E7DFCB;"></div>
+                    <h5>Branco</h5>
+                    <p>Paz, liberdade e união entre os cidadãos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="eua">
+        <div class="container">
+            <div class="section-head">
+                <span class="stamp"><span class="dot"></span>Contexto político</span>
+                <h2>Relação com os Estados Unidos</h2>
+                <div class="rule"></div>
+            </div>
+            <div style="max-width:760px; color:#3a4a52; font-size:15px;">
+                <p>Até 1898, Porto Rico era colônia da Espanha. Após a Guerra Hispano-Americana, passou ao controle dos Estados Unidos pelo Tratado de Paris de 1898. Hoje é um Estado Livre Associado: tem governo próprio e autonomia administrativa, mas segue sob soberania americana.</p>
+                <p style="margin-top:16px;">Os porto-riquenhos têm cidadania americana desde 1917 e podem morar, trabalhar e estudar em qualquer estado sem visto — mas não votam para presidente enquanto residem na ilha, e têm representação limitada no Congresso. Mesmo assim, a identidade cultural boricua permanece forte e distinta.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="proto-note" style="margin-top:80px;">Fonte: pesquisa cultural compilada para este protótipo. Conteúdo apresentado apenas para fins de estudo.</div>
+</main>

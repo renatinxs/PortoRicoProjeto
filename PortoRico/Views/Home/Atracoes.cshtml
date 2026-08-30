@@ -1,0 +1,167 @@
+﻿@{
+    ViewData["Title"] = "Pontos Turísticos";
+}
+
+<main id="page-attractions">
+
+    <div class="attr-hero">
+        <div class="container">
+            <span class="stamp on-dark"><span class="dot"></span>Roteiro · 6 paradas</span>
+            <h1>Principais pontos turísticos</h1>
+            <p>De fortalezas coloniais a baías bioluminescentes: conheça os lugares que definem Porto Rico — e encontre um quarto para ficar pertinho de cada um.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="attr-grid">
+
+            <!-- El Morro -->
+            <div class="attr-card">
+                <div class="illus" style="background:linear-gradient(180deg,#175A73,#0A2A3A);">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="300" height="180" fill="none" />
+                        <rect x="0" y="120" width="300" height="60" fill="#0A2A3A" />
+                        <path d="M40 120 L40 70 L70 55 L100 70 L100 45 L120 45 L120 70 L150 55 L150 120 Z" fill="#F4EEE1" />
+                        <circle cx="60" cy="90" r="5" fill="#0F3F52" />
+                        <circle cx="90" cy="90" r="5" fill="#0F3F52" />
+                        <circle cx="130" cy="90" r="5" fill="#0F3F52" />
+                        <path d="M170 120 Q220 90 290 120" stroke="#F2A93B" stroke-width="3" fill="none" opacity=".6" />
+                        <circle cx="255" cy="35" r="18" fill="#F2A93B" opacity=".85" />
+                    </svg>
+                    <span class="cap">El Morro</span>
+                </div>
+                <div class="info">
+                    <div class="city">San Juan</div>
+                    <h3>Castillo San Felipe del Morro</h3>
+                    <p>Fortaleza espanhola do século XVI erguida à beira-mar, guardando a entrada da baía de San Juan. Vista panorâmica sobre o oceano e sobre a cidade colonial murada.</p>
+                    <div class="attr-tags"><span>Patrimônio histórico</span><span>Vista para o mar</span></div>
+                    <a asp-controller="Aluguel" asp-action="Index" asp-route-cidade="San Juan" class="attr-link">Ver quartos em San Juan <span>→</span></a>
+                </div>
+            </div>
+
+            <!-- El Yunque -->
+            <div class="attr-card">
+                <div class="illus" style="background:linear-gradient(180deg,#0F3F52,#0A2A3A);">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 180 L60 60 L100 110 L140 40 L190 130 L230 90 L300 180 Z" fill="#175A73" />
+                        <path d="M120 40 L128 90 L112 90 Z" fill="#F4EEE1" opacity=".8" />
+                        <rect x="118" y="88" width="4" height="45" fill="#F4EEE1" opacity=".5" />
+                        <circle cx="245" cy="40" r="16" fill="#F2A93B" opacity=".8" />
+                    </svg>
+                    <span class="cap">El Yunque</span>
+                </div>
+                <div class="info">
+                    <div class="city">Rio Grande</div>
+                    <h3>Floresta Tropical El Yunque</h3>
+                    <p>A única floresta tropical do Sistema Nacional de Florestas dos EUA. Trilhas em meio à mata densa levam a cachoeiras como a Juan Diego e a La Mina.</p>
+                    <div class="attr-tags"><span>Trilhas</span><span>Cachoeiras</span></div>
+                    <a asp-controller="Aluguel" asp-action="Index" asp-route-cidade="San Juan" class="attr-link">Ver quartos perto (San Juan) <span>→</span></a>
+                </div>
+            </div>
+
+            <!-- Flamenco Beach -->
+            <div class="attr-card">
+                <div class="illus" style="background:linear-gradient(180deg,#3AA0C9,#0F3F52);">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="130" width="300" height="50" fill="#F4EEE1" />
+                        <path d="M0 130 Q75 110 150 130 T300 130 V150 H0 Z" fill="#175A73" opacity=".6" />
+                        <circle cx="250" cy="35" r="18" fill="#F2A93B" />
+                        <path d="M60 150 L60 100" stroke="#0A2A3A" stroke-width="3" />
+                        <path d="M60 108 C 40 95, 25 78, 20 55" stroke="#0A2A3A" stroke-width="3" fill="none" />
+                        <path d="M60 105 C 80 90, 92 72, 96 50" stroke="#0A2A3A" stroke-width="3" fill="none" />
+                    </svg>
+                    <span class="cap">Flamenco</span>
+                </div>
+                <div class="info">
+                    <div class="city">Culebra</div>
+                    <h3>Praia de Flamenco</h3>
+                    <p>Eleita repetidamente uma das melhores praias do mundo: areia branca fina e águas cristalinas em formato de ferradura, na ilha de Culebra.</p>
+                    <div class="attr-tags"><span>Águas cristalinas</span><span>Mergulho</span></div>
+                    <a asp-controller="Aluguel" asp-action="Index" asp-route-cidade="Vieques" class="attr-link">Ver quartos em Vieques <span>→</span></a>
+                </div>
+            </div>
+
+            <!-- Bioluminescent Bay -->
+            <div class="attr-card">
+                <div class="illus" style="background:linear-gradient(180deg,#0A2A3A,#08202D);">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="300" height="180" fill="#0A2A3A" />
+                        <circle cx="70" cy="70" r="2" fill="#7CE8C2" />
+                        <circle cx="110" cy="50" r="2.4" fill="#7CE8C2" />
+                        <circle cx="150" cy="80" r="1.8" fill="#7CE8C2" />
+                        <circle cx="190" cy="55" r="2.2" fill="#7CE8C2" />
+                        <circle cx="230" cy="75" r="2" fill="#7CE8C2" />
+                        <circle cx="90" cy="100" r="2" fill="#7CE8C2" />
+                        <circle cx="170" cy="105" r="2.4" fill="#7CE8C2" />
+                        <circle cx="210" cy="120" r="1.8" fill="#7CE8C2" />
+                        <circle cx="50" cy="115" r="1.6" fill="#7CE8C2" />
+                        <circle cx="130" cy="130" r="2" fill="#7CE8C2" />
+                        <circle cx="260" cy="100" r="2" fill="#7CE8C2" />
+                        <path d="M0 150 Q150 130 300 150 V180 H0 Z" fill="#0F3F52" opacity=".6" />
+                    </svg>
+                    <span class="cap">Mosquito Bay</span>
+                </div>
+                <div class="info">
+                    <div class="city">Vieques</div>
+                    <h3>Baía Bioluminescente</h3>
+                    <p>Uma das baías bioluminescentes mais brilhantes do planeta. Micro-organismos na água criam um brilho azul-esverdeado ao redor de quem nada ou passeia de caiaque à noite.</p>
+                    <div class="attr-tags"><span>Passeio noturno</span><span>Caiaque</span></div>
+                    <a asp-controller="Aluguel" asp-action="Index" asp-route-cidade="Vieques" class="attr-link">Ver quartos em Vieques <span>→</span></a>
+                </div>
+            </div>
+
+            <!-- Ponce -->
+            <div class="attr-card">
+                <div class="illus" style="background:linear-gradient(180deg,#F2A93B,#0A2A3A 140%);">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="60" width="70" height="80" fill="#E13A3A" />
+                        <rect y="50" width="70" height="12" fill="#0A2A3A" />
+                        <rect x="90" y="40" width="80" height="100" fill="#F4EEE1" />
+                        <rect x="90" y="30" width="80" height="12" fill="#0A2A3A" />
+                        <rect x="190" y="70" width="70" height="70" fill="#175A73" />
+                        <rect x="190" y="60" width="70" height="12" fill="#0A2A3A" />
+                        <rect x="115" y="90" width="14" height="20" fill="#0A2A3A" />
+                        <rect x="140" y="90" width="14" height="20" fill="#0A2A3A" />
+                    </svg>
+                    <span class="cap">Plaza Las Delicias</span>
+                </div>
+                <div class="info">
+                    <div class="city">Ponce</div>
+                    <h3>Centro Histórico de Ponce</h3>
+                    <p>Fachadas coloridas de estilo neoclássico ao redor da Plaza Las Delicias, com o icônico Parque de Bombas listrado em vermelho e preto.</p>
+                    <div class="attr-tags"><span>Arquitetura colonial</span><span>Museus</span></div>
+                    <a asp-controller="Aluguel" asp-action="Index" asp-route-cidade="Ponce" class="attr-link">Ver quartos em Ponce <span>→</span></a>
+                </div>
+            </div>
+
+            <!-- Rincón -->
+            <div class="attr-card">
+                <div class="illus" style="background:linear-gradient(180deg,#F2A93B,#E13A3A);">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="230" cy="60" r="30" fill="#F4EEE1" />
+                        <path d="M0 140 Q75 120 150 140 T300 140 V180 H0 Z" fill="#0A2A3A" opacity=".5" />
+                        <path d="M40 140 L90 60 L100 140 Z" fill="#0A2A3A" opacity=".8" />
+                        <path d="M90 60 L100 40 L104 65 Z" fill="#F4EEE1" />
+                    </svg>
+                    <span class="cap">Rincón</span>
+                </div>
+                <div class="info">
+                    <div class="city">Rincón</div>
+                    <h3>Praias de Surf de Rincón</h3>
+                    <p>Capital do surf em Porto Rico, famosa por seus pôr do sol e ondas que atraem surfistas do mundo todo, especialmente entre novembro e abril.</p>
+                    <div class="attr-tags"><span>Surf</span><span>Pôr do sol</span></div>
+                    <a asp-controller="Aluguel" asp-action="Index" asp-route-cidade="Rincón" class="attr-link">Ver quartos em Rincón <span>→</span></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="attr-cta">
+        <div class="container">
+            <h2>Já escolheu para onde ir?</h2>
+            <p>Veja os quartos disponíveis perto de cada um desses pontos turísticos na nossa área de aluguel.</p>
+            <a asp-controller="Aluguel" asp-action="Index" class="btn-primary">Ver quartos disponíveis</a>
+        </div>
+    </div>
+</main>

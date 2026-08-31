@@ -7,9 +7,9 @@ Este documento apresenta os membros da equipe e suas respectivas funções.
 | Nome | Função | Papel |
 |------|--------|-------|
 | Renato Oliveira | Código + Design | 👑 Líder |
-| João Durigam | Design + codigo| Integrante |
-| Samuel Barbosa | Código | Integrante |
-| Guilherme Silva | Pesquisa + Design | Integrante |
+| João Durigam | Pesquisa| Integrante |
+| Samuel Barbosa | Código + desing | Integrante |
+| Guilherme Silva | Código + Design | Integrante |
 
 ---
 
